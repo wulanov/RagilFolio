@@ -12,4 +12,4 @@ Saya memiliki pengalaman dalam pengujian perangkat lunak, termasuk perencanaan d
 
 ## Proyek
 
-### [Proyek Aplikasi React]()
+### [Proyek Aplikasi React](https://ragilfolio.vercel.app/)
