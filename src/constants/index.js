@@ -111,11 +111,11 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Verisoft",
+    title: "Software Quality Assurance",
+    company_name: "Meda Technology",
     icon: verisoft,
     iconBg: "#accbe1",
-    date: "May 2019 - December 2023",
+    date: "Febuary 2024 - Present",
     points: [
       "Building Fintech businesses at Verisoft as part of a global team. More specifically, developing loyalty, payment system and card products to deliver delightful experiences to Verisoft's customers around the world.",
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -124,30 +124,6 @@ export const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full-Stack Developer",
-    company_name: "OKT Trailer",
-    icon: okttrailer,
-    iconBg: "#c0c0c0",
-    date: "Agu 2017 - Sep 2018",
-    points: [
-      "Taking an important role in the ERP transformation project by being responsible for the finance, sales, vehicle tracking and delivery modules of the Enterprise Resource Planning (ERP) structure.",
-      "Demonstrating effective communication and project management skills during the analysis, testing and development process to ensure the successful outcome of the ERP transformation project.",
-      "Actively working with business teams throughout this process."
-    ],
-  },
-  {
-    title: "Junior Front-End Developer",
-    company_name: "Karton Medya",
-    icon: kartonmedya,
-    iconBg: "#c8a2c8",
-    date: "Feb 2016 - Jun 2017",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility."
-    ],
-  }
 ];
 
 export const socialLinks = [
@@ -159,12 +135,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/emredkyc",
+    link: "https://github.com/RagilLingga",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/burak-emre-dokuyucu",
+    link: "#",
   },
 ];
 
