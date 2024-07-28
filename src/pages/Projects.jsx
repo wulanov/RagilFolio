@@ -10,16 +10,12 @@ const Projects = () => {
       <h1 className="head-text">
         My{" "}
         <span className="blue-gradient_text drop-shadow font-semibold">
-          Projects
+          Services
         </span>
       </h1>
 
       <p className="text-slate-500 mt-2 leading-relaxed">
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+      Over the years, I have delivered a variety of services, each tailored to meet the unique needs of my clients. These services range from software development and quality assurance to technical consulting and project management. I am dedicated to providing exceptional value and quality in every project I undertake. If you are interested in learning more or collaborating, feel free to reach out. Your partnership is greatly appreciated!
       </p>
 
       <div className="flex flex-wrap my-20 gap-16">

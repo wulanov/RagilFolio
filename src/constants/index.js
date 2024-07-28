@@ -115,16 +115,17 @@ export const experiences = [
     company_name: "Meda Technology",
     icon: verisoft,
     iconBg: "#accbe1",
-    date: "Febuary 2024 - Present",
+    date: "February 2024 - Present",
     points: [
-      "Building Fintech businesses at Verisoft as part of a global team. More specifically, developing loyalty, payment system and card products to deliver delightful experiences to Verisoft's customers around the world.",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducting manual and automated testing to ensure the quality and functionality of fintech applications.",
+      "Developing test cases, test plans, and test scripts based on software requirements and design documents.",
+      "Identifying, reporting, and tracking defects, and working closely with developers to resolve issues.",
+      "Collaborating with cross-functional teams including developers, product managers, and business analysts to define testing strategies and ensure alignment with project goals.",
+      "Continuously improving testing processes and methodologies to enhance the efficiency and effectiveness of the QA team.",
     ],
   },
 ];
+
 
 export const socialLinks = [
   {
