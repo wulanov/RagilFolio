@@ -18,14 +18,16 @@ const Home = () => {
 
   const [isRotating, setIsRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1);
-  const [isPlayingMusic, setIsPlayingMusic] = useState(true);
+  const [isPlayingMusic, setIsPlayingMusic] = useState(false);
 
   useEffect(() => {
     if (isPlayingMusic) {
       audioRef.current.play();
-    } else {
-      audioRef.current.pause();
     }
+
+    return () => {
+      audioRef.current.pause();
+    };
   }, [isPlayingMusic]);
 
   const adjustPlaneForScreenSize = () => {
@@ -104,7 +106,7 @@ const Home = () => {
 
       <div className='absolute bottom-2 left-2'>
         <img
-          src={isPlayingMusic ? soundon : soundoff}
+          src={!isPlayingMusic ? soundoff : soundon}
           alt='sound'
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
           className='w-10 h-10 cursor-pointer object-contain'
