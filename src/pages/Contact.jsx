@@ -9,7 +9,7 @@ import Alert from "../components/Alert";
 
 const Contact = () => {
   const formRef = useRef();
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", message: "", phone: "" });
   const { alert, showAlert, hideAlert } = useAlert();
   const [loading, setLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState("idle");
@@ -34,6 +34,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Ragil Lingga Aditya",
           from_email: form.email,
+          phone: form.phone,
           to_email: "pajeroragil@gmail.com",
           message: form.message,
         },
@@ -54,6 +55,7 @@ const Contact = () => {
             setForm({
               name: "",
               email: "",
+              phone: "",
               message: "",
             });
           }, [3000]);
@@ -107,6 +109,20 @@ const Contact = () => {
               placeholder="Write your email here..."
               required
               value={form.email}
+              onChange={handleChange}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            />
+          </label>
+          <label className="text-black-500 font-semibold">
+            No. Phone
+            <input
+              type="number"
+              name="phone"
+              className="input"
+              placeholder="Write your phone number here..."
+              required
+              value={form.phone}
               onChange={handleChange}
               onFocus={handleFocus}
               onBlur={handleBlur}
