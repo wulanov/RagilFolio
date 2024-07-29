@@ -1,41 +1,32 @@
 import { meta, kartonmedya, verisoft, okttrailer } from "../assets/images";
 import {
+  confluence,
   car,
   contact,
   css,
   estate,
-  express,
   git,
   github,
   html,
+  jira,
   javascript,
   linkedin,
-  mongodb,
-  motion,
-  mui,
-  nextjs,
-  nodejs,
   pricewise,
-  react,
-  redux,
-  sass,
   snapgram,
   summiz,
-  tailwindcss,
   threads,
-  typescript,
 } from "../assets/icons";
 
 export const skills = [
   {
-    imageUrl: css,
-    name: "CSS",
-    type: "Frontend",
+    imageUrl: confluence,
+    name: "Confluence",
+    type: "Project Management",
   },
   {
-    imageUrl: express,
-    name: "Express",
-    type: "Backend",
+    imageUrl: jira,
+    name: "Jira",
+    type: "Project Management",
   },
   {
     imageUrl: git,
@@ -53,58 +44,13 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
     imageUrl: javascript,
     name: "JavaScript",
-    type: "Frontend",
-  },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
-  {
-    imageUrl: motion,
-    name: "Motion",
-    type: "Animation",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
-  {
-    imageUrl: react,
-    name: "React",
-    type: "Frontend",
-  },
-  {
-    imageUrl: redux,
-    name: "Redux",
-    type: "State Management",
-  },
-  {
-    imageUrl: sass,
-    name: "Sass",
-    type: "Frontend",
-  },
-  {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
-    type: "Frontend",
-  },
-  {
-    imageUrl: typescript,
-    name: "TypeScript",
     type: "Frontend",
   },
 ];
@@ -117,12 +63,14 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "Febuary 2024 - Present",
     points: [
-      "Building Fintech businesses at Verisoft as part of a global team. More specifically, developing loyalty, payment system and card products to deliver delightful experiences to Verisoft's customers around the world.",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Testing web and mobile applications to ensure quality and identify bugs.",
+      "Developing and maintaining test cases, scripts, and data.",
+      "Collaborating with developers, product managers, and designers on requirements and quality feedback.",
+      "Participating in code reviews and improving product quality and testing coverage.",
+      "Performing regression, integration, and user acceptance testing (UAT).",
+      "Tracking and managing defects with Asana or TestRail, ensuring timely resolution.",
+      "Reporting on testing outcomes and quality metrics to stakeholders.",
+    ],    
   },
 ];
 
