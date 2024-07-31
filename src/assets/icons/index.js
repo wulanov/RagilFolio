@@ -20,8 +20,12 @@ import confluence from './confluence.svg'
 import asana from './asana.svg'
 import jmeter from './jmeter.svg'
 import qase from './qase.svg'
+import selenium from './selenium.svg'
+import appium from './appium.svg'
 
 export {
+    appium,
+    selenium,
     asana,
     confluence,
     jira,

@@ -1,7 +1,9 @@
 import { meta, kartonmedya, verisoft, okttrailer } from "../assets/images";
 import {
+  appium,
   asana,
   confluence,
+  selenium,
   car,
   contact,
   css,
@@ -21,6 +23,16 @@ import {
 } from "../assets/icons";
 
 export const skills = [
+  {
+    imageUrl: selenium,
+    name: "Selenium",
+    type: "Automation Tools",
+  },
+  {
+    imageUrl: appium,
+    name: "Appium",
+    type: "Automation Tools",
+  },
   {
     imageUrl: qase,
     name: "Qase",
