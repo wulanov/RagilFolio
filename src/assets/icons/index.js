@@ -17,10 +17,15 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import jira from './jira.svg'
 import confluence from './confluence.svg'
+import asana from './asana.svg'
+import jmeter from './jmeter.svg'
+import qase from './qase.svg'
 
 export {
+    asana,
     confluence,
     jira,
+    jmeter,
     css,
     git,
     github,
@@ -30,6 +35,7 @@ export {
     twitter,
     car,
     estate,
+    qase,
     pricewise,
     snapgram,
     summiz,
