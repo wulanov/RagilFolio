@@ -22,11 +22,15 @@ import jmeter from './jmeter.svg'
 import qase from './qase.svg'
 import selenium from './selenium.svg'
 import appium from './appium.svg'
+import slack from './slack.svg'
+import k6 from './k6.svg'
 
 export {
+    k6,
     appium,
     selenium,
     asana,
+    slack,
     confluence,
     jira,
     jmeter,

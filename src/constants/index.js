@@ -8,6 +8,8 @@ import {
   contact,
   css,
   estate,
+  slack,
+  k6,
   qase,
   git,
   github,
@@ -39,6 +41,11 @@ export const skills = [
     type: "Project Management",
   },
   {
+    imageUrl: slack,
+    name: "Slack",
+    type: "Communication",
+  },
+  {
     imageUrl: asana,
     name: "Asana",
     type: "Project Management",
@@ -54,9 +61,14 @@ export const skills = [
     type: "Project Management",
   },
   {
+    imageUrl: k6,
+    name: "K6 Grafana",
+    type: "Performance Test Tools",
+  },
+  {
     imageUrl: jmeter,
     name: "Jmeter",
-    type: "Project Management",
+    type: "Performance Test Tools",
   },
   {
     imageUrl: git,
