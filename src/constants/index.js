@@ -8,23 +8,30 @@ import {
   contact,
   css,
   estate,
+  flutter,
+  testrail,
   slack,
   k6,
+  katalon,
   qase,
   git,
   github,
+  figma,
+  python,
   html,
   jira,
   jmeter,
   javascript,
   linkedin,
   pricewise,
+  apptim,
   snapgram,
   summiz,
   threads,
 } from "../assets/icons";
 
 export const skills = [
+  
   {
     imageUrl: selenium,
     name: "Selenium",
@@ -36,8 +43,18 @@ export const skills = [
     type: "Automation Tools",
   },
   {
+    imageUrl: katalon,
+    name: "Katalon",
+    type: "Automation Tools",
+  },
+  {
     imageUrl: qase,
     name: "Qase",
+    type: "Project Management",
+  },
+  {
+    imageUrl: testrail,
+    name: "Testrail",
     type: "Project Management",
   },
   {
@@ -61,6 +78,11 @@ export const skills = [
     type: "Project Management",
   },
   {
+    imageUrl: apptim,
+    name: "Apptim",
+    type: "Performance Test Tools",
+  },
+  {
     imageUrl: k6,
     name: "K6 Grafana",
     type: "Performance Test Tools",
@@ -69,6 +91,11 @@ export const skills = [
     imageUrl: jmeter,
     name: "Jmeter",
     type: "Performance Test Tools",
+  },
+  {
+    imageUrl: figma,
+    name: "Figma",
+    type: "Desain UI/UX",
   },
   {
     imageUrl: git,
@@ -94,6 +121,16 @@ export const skills = [
     imageUrl: javascript,
     name: "JavaScript",
     type: "Frontend",
+  },
+  {
+    imageUrl: python,
+    name: "Python",
+    type: "Data",
+  },
+  {
+    imageUrl: flutter,
+    name: "Flutter",
+    type: "Mobile",
   },
 ];
 

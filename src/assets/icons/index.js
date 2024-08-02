@@ -24,8 +24,20 @@ import selenium from './selenium.svg'
 import appium from './appium.svg'
 import slack from './slack.svg'
 import k6 from './k6.svg'
+import testrail from './testrail.svg'
+import flutter from './flutter.svg'
+import apptim from './apptim.svg'
+import katalon from './katalon.svg'
+import figma from './figma.svg'
+import python from './python.svg'
 
 export {
+    python,
+    figma,
+    katalon,
+    apptim,
+    flutter,
+    testrail,
     k6,
     appium,
     selenium,

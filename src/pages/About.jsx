@@ -21,10 +21,9 @@ const About = () => {
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-  <p>
-    Quality Assurance Specialist based in Surabaya Indonesia, dedicated to ensuring top-notch software quality through rigorous testing and innovative methodologies. 
-    Committed to delivering reliable and high-performance software solutions.
-  </p>
+      <p>
+    Quality Assurance Specialist based in Surabaya, Indonesia, dedicated to ensuring top-notch software quality through rigorous testing and innovative methodologies, including both manual testing and automation testing. Committed to delivering reliable and high-performance software solutions.
+    </p>
 </div>
 
 
