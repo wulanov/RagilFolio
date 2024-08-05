@@ -174,9 +174,23 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: snapgram,
-    theme: "btn-back-pink",
+    theme: "btn-back-blue",
     name: "3D Portfolioku",
     description: "Let's create a cool 3D website together! You will learn how to make a portfolio with fun interactive pieces like a floating island and a fox that moves when you type. This way you can show off your skills.",
     link: "https://ragilfolio.vercel.app/",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-red",
+    name: "My Services",
+    description: "My Services specialize in Software Quality Assurance (SQA). I provide expert SQA solutions, including test strategies, case creation, and detailed reporting to ensure high-quality software performance.",
+    link: "https://ragilservices.vercel.app/",
+  },
+  {
+    iconUrl: estate,
+    theme: "btn-back-black",
+    name: "Bridgestone Mobile Application Business Trip",
+    description: "The Bridgestone Mobile Application offers real-time tire monitoring, maintenance alerts, and easy management of tire health. It also provides access to exclusive promotions and services. My SQA services ensure the app delivers a seamless and high-quality user experience through thorough testing and quality assurance.",
+    link: "https://ragilservices.vercel.app/",
   },
 ];
