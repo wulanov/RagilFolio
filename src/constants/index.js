@@ -193,4 +193,18 @@ export const projects = [
     description: "The Bridgestone Mobile Application offers real-time tire monitoring, maintenance alerts, and easy management of tire health. It also provides access to exclusive promotions and services. My SQA services ensure the app delivers a seamless and high-quality user experience through thorough testing and quality assurance.",
     link: "https://ragilservices.vercel.app/",
   },
+  {
+    iconUrl: estate,
+    theme: "btn-back-black",
+    name: "Bridgestone Website App",
+    description: "The Bridgestone Website Application offers comprehensive tools for managing business trips, including trip approvals, cash advance management, security checks, and housekeeping. My SQA services ensure the web app delivers a seamless and high-quality user experience through thorough testing and quality assurance.",
+    link: "https://ragilservices.vercel.app/",
+},
+{
+  iconUrl: pricewise,
+  theme: "btn-back-red",
+  name: "AHM Loyalty Managements",
+  description: "The AHM Loyalty Management dashboard enables efficient tracking of customer points, management of customer data, and handling of employee roles and permissions. My SQA services ensure the dashboard performs optimally through rigorous testing and quality assurance.",
+  link: "https://ragilservices.vercel.app/",
+},
 ];
